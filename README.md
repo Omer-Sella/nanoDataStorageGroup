@@ -1,4 +1,4 @@
-# Setting up, howto, and a cookbook for new students and staff at our research group https://dnastorage.doc.ic.ac.uk/
+# Setting up and cookbook for new students and staff at our research group https://dnastorage.doc.ic.ac.uk/
 
 ## Getting started with Department of Computing (DoC) GPU machines
 DoC has some GPU machines that can be accessed using
@@ -23,7 +23,7 @@ To start an interactive session with an allocated GPU machine.
 ## Setting up VS code to work remotely with a DoC machine as the server
 Generally speaking we're following the instructions here: https://code.visualstudio.com/docs/remote/remote-overview
 
-The exception is that the istallation folder for VS code server should be /homes/<USERNAME>/ (homes, plural) rather than /home/<USERNAME>/. Alternatively you could set it up under /vol/bitbucket/<USERNAME>/ and change the installation folder to be accessible to yourself only (for security reasons).
+The exception is that the installation folder for VS code server should be /homes/<USERNAME>/ (homes, plural) rather than /home/<USERNAME>/. Alternatively, you could set it up under /vol/bitbucket/<USERNAME>/ and change the installation folder to be accessible to yourself only (for security reasons).
 
 ```json
 {
