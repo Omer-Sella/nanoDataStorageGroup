@@ -52,8 +52,8 @@ The exception is that the installation folder for VS code server should be /home
 ```
 ## Nanopore simulators
 So far I explored (tried to use) the following:
-0. Scrappie - https://github.com/nanoporetech/scrappie would have been nice to get this to work, but the dependencies are virtually impossible to satisfy without collapsing. I had to dig deep into hdf5 and other dependencies like cython, but eventually disbanded it. Jlq17 managed to get it working on Imperial College DoC machines - https://github.com/jasminequah/dna_archival_storage/tree/main so it should be possible.
-1. Squigulator https://github.com/hasindu2008/squigulator - to date, this is the only tool that actually worked
-2. Seq2squiggle - https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle looks very promising but couldn't get it to work. Specifically have a look here: https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle/issues/13
-3. Deep Simulator https://github.com/liyu95/DeepSimulator/tree/master - also looks promising, but couldn't get it to work, although I haven't tried too much of a deep fix, since it couples shell scripts with python 2 pretty tightly.
-4. NanoSim-H https://github.com/karel-brinda/NanoSim-H
+1. Scrappie - https://github.com/nanoporetech/scrappie would have been nice to get this to work, but the dependencies are virtually impossible to satisfy without collapsing. I had to dig deep into hdf5 and other dependencies like cython, but eventually disbanded it. Jlq17 managed to get it working on Imperial College DoC machines - https://github.com/jasminequah/dna_archival_storage/tree/main so it should be possible.
+2. Squigulator https://github.com/hasindu2008/squigulator - to date, this is the only tool that actually worked
+3. Seq2squiggle - https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle looks very promising but couldn't get it to work. Specifically have a look here: https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle/issues/13
+4. Deep Simulator https://github.com/liyu95/DeepSimulator/tree/master - also looks promising, but couldn't get it to work, although I haven't tried too much of a deep fix, since it couples shell scripts with python 2 pretty tightly.
+5. NanoSim-H https://github.com/karel-brinda/NanoSim-H
