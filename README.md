@@ -57,3 +57,14 @@ So far I explored (tried to use) the following:
 3. Seq2squiggle - https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle - works using ```shell seq2squiggle predict ./someDNA.fasta -o example.blow5 --read-input ``` (see this issue https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle/issues/13#issuecomment-2684799804).
 4. Deep Simulator https://github.com/liyu95/DeepSimulator/tree/master - also looks promising, but couldn't get it to work, although I haven't tried too much of a deep fix, since it couples shell scripts with python 2 pretty tightly.
 5. NanoSim-H https://github.com/karel-brinda/NanoSim-H
+
+
+## seq2squiggle
+Use the pyenv environment in
+```console
+/vol/bitbucket/osella/pyenv/versions/python310/bin/python
+```
+Which should allow you to use seq2squiggle:
+```console
+seq2squiggle predict /vol/bitbucket/<source fasta file> -o /vol/bitbucket/<destination fasta file.pod5> --read-input
+```
